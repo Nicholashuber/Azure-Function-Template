@@ -11,6 +11,7 @@ Once you initialize the project and select your trigger you should upload it to 
  4. This will create a github workflow in your project.
 
  [As of 12/16/2023 Potential Issue]
+
  5. Github workflow might fail to push your code back to Azure. This is due to having no tests.
  6. Just remove this line 'npm run test --if-present' in '.github/workflows/main_nameofworkflow.yml'
 ```

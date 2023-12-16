@@ -8,7 +8,7 @@ Once you initialize the project and select your trigger you should upload it to 
  1. Clone Repo
  2. Create Azure process with github deployments enabled connected to the new repo
  3. Go through all prompts and save.
- 4. This will create a github workflow in your project.
+ 4. This will create a github workflow in your now connected github repo.
 
  [As of 12/16/2023 Potential Issue]
 

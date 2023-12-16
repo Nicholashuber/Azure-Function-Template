@@ -8,10 +8,12 @@ Once you initialize the project and select your trigger you should upload it to 
  1. Clone Repo
  2. Create Azure process with github deployments enabled connected to the new repo
  3. Go through all prompts and save.
- 4. This will create a github workflow in your project. (It might fail to push your code back to azure you need to remove the npm run tests line)
+ 4. This will create a github workflow in your project.
+ 5. 12/16/2023 Github workflow might fail to push your code back to Azure. This is due to having no tests.
+ 6. Just remove this line `npm run test --if-present` in `.github/workflows/main_nameofworkflow.yml`
 ```
 
-## Installation
+## Installation (If you want to start from scratch and generate yourself)
 
 ```bash
 # Use the following command to initialize a new Node.js project.
